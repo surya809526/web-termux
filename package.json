@@ -4,7 +4,7 @@
   "description": "Cloud Terminal Emulator for Running Python and Bash",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "pip install pyTelegramBotAPI groq --break-system-packages && node server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
